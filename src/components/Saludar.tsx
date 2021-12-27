@@ -1,5 +1,5 @@
 import React from "react";
-import { Text, View } from "react-native";
+import { Text } from "react-native";
 //import PropTypes from "react-native";
 
 export default function Saludar(props: { firstName: string; lastName: string}) {

@@ -11,6 +11,7 @@ export default function NavigationStack() {
       <Stack.Navigator>
         <Stack.Screen name="Settings" component={SettingsScreen} />
         <Stack.Screen name="Home" component={HomeScreen} />
+
       </Stack.Navigator>
     );
 }

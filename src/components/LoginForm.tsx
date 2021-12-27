@@ -1,12 +1,18 @@
 import React from "react";
-import { Text, View } from "react-native";
-import { TextInput } from "react-native-gesture-handler";
+import { Button, TextInput, View } from "react-native";
+import Saludar from "./Saludar";
 
-export  default function LoginForm() {
+export default function LoginForm() {
     return (
         <View>
-          <Text> Login screen</Text>
-          <TextInput>funciona?</TextInput>
+            <TextInput placeholder="Email" />
+            <TextInput placeholder="Contraseña" />
+            <Button title="Login" onPress={() => console.log("Enviado Dani")}/>
+            <Saludar/>
+            <Saludar firstName="Daniel" lastName="Ulloa"/>
+            <Saludar/>
         </View>
     );
 }
+
+
